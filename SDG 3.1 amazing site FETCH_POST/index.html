@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>😎 cool site</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>List of Posts</h1>
+    </header>
+    <main>
+      <div>
+        <!-- <div id="navBanner"></div> -->
+        <form id="postForm">
+          <p>Create a post below!</p>
+          <input
+            type="text"
+            name="title"
+            id="titleField"
+            placeholder="enter post title"
+          />
+          <input
+            type="text"
+            name="body"
+            id="bodyField"
+            placeholder="enter post body"
+          />
+          <input type="submit" value="Create Post" />
+        </form>
+        <p id="loadingText"></p>
+        <div id="responseView"></div>
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
