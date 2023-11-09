@@ -3,6 +3,8 @@ $(document).ready(function () {
   loadingText.hide();
   loadingText.text("Fetching Posts");
 
+  alert("Hi i joy implemented this feature")
+
   const form = $("#postForm");
 
   form.submit(async function (e) {
